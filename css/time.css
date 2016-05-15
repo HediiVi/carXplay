@@ -1,0 +1,84 @@
+/* If you want you can use font-face */
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.clock {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+#Date {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #008E8E;
+    color: #333333;
+}
+
+ul {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    font-size: 5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 0 0 10px #000000;
+    color: #C60800;
+   
+}
+
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}	
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
+}
